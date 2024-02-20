@@ -1,11 +1,14 @@
-git init                        -- neues Projekt anlegen und commiten
-git status                      -- status
-git log                         -- Historie
-git add ".\Git QuickHelp.txt"   -- eine Datei hinzufügen
-git add .                       -- alle Änderungen hinzufügen
-git diff ".\Git QuickHelp.txt"  -- Änderungen anzeigen
-git commit -m "erstes Commit"   -- Commit
-git revert 91ce46fd6d58854c.... -- Version rückgängig machen
-git rest HEAD~2                 -- Löscht für immer die letzten 2 Version, vom Header aus gesehen
+git init                           - neues Projekt anlegen und commiten
+git status                         -- status
+git log                            -- Historie
+git add ".\Git QuickHelp.txt"   -   - eine Datei hinzufügen
+git add .                          -- alle Änderungen hinzufügen
+git checkout ".\Git QuickHelp.txt" -- Eine Datei aus dem Commit wieder in die Bearbeitung nehmen
+git diff ".\Git QuickHelp.txt"     -- Änderungen anzeigen
+git commit -m "erstes Commit"      -- Commit
+git revert 91ce46fd6d58854c....    -- Version rückgängig machen
+git reset --hard HEAD~2            -- Löscht für IMMER die letzten 2 Version, vom Header aus gesehen
+git reset --soft HEAD~1            -- entfernt den letzten Commit -> Datei ist dann in der StageArea
 
-<Shift>:wq                      -- Git Editor mit write+quit (wq) verlassen
+<Shift>:wq                         -- Git Editor mit write+quit (wq) verlassen
+<Strg> ö                           -- öffnen der Commandozeile
