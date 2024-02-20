@@ -1,1 +1,5 @@
-git init  -- neues Projekt anlegen
+git init                        -- neues Projekt anlegen und commiten
+git status                      -- status
+git log                         -- Historie
+git diff ".\Git QuickHelp.txt"  -- Änderungen anzeigen
+git commit -m "erstes Commit"   -- Commit
