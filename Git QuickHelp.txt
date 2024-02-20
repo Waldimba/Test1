@@ -5,3 +5,7 @@ git add ".\Git QuickHelp.txt"   -- eine Datei hinzufügen
 git add .                       -- alle Änderungen hinzufügen
 git diff ".\Git QuickHelp.txt"  -- Änderungen anzeigen
 git commit -m "erstes Commit"   -- Commit
+git revert 91ce46fd6d58854c.... -- Version rückgängig machen
+
+
+<Shift>:wq                      -- Git Editor mit write+quit (wq) verlassen
