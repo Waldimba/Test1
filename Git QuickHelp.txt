@@ -5,3 +5,5 @@ git add ".\Git QuickHelp.txt"   -- eine Datei hinzufügen
 git add .                       -- alle Änderungen hinzufügen
 git diff ".\Git QuickHelp.txt"  -- Änderungen anzeigen
 git commit -m "erstes Commit"   -- Commit
+
+Test für Commit 4
