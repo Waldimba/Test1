@@ -12,6 +12,9 @@ git reset --hard HEAD~2            -- Löscht für IMMER die letzten 2 Version, 
 git rese
 
 git push -u origin master          -- in GitHub hochladen
+git checkout -b BranchCode         -- Branche vom GitHub erstellen
+git checkout main                  -- Branche wechseln
+
 
 <Shift>:wq                         -- Git Editor mit write+quit (wq) verlassen
 <Strg> ö                           -- öffnen der Commandozeile
