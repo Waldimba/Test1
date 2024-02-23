@@ -1,6 +1,7 @@
 git init                           - neues Projekt anlegen und commiten
 git status                         -- status
-git log                            -- Historie
+git log                            -- Historie Detail
+git log --pretty=oneline           -- Historie Liste
 git add ".\Git QuickHelp.txt"   -   - eine Datei hinzufügen
 git add .                          -- alle Änderungen hinzufügen
 git checkout ".\Git QuickHelp.txt" -- Eine Datei aus dem Commit wieder in die Bearbeitung nehmen
