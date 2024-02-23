@@ -1,2 +1,6 @@
 Hier steht alles aus dem MasterCode
+<<<<<<< HEAD
 Hotfix im main Branch
+=======
+Änderung im BranchCode
+>>>>>>> BranchCode
